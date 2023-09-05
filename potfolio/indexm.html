@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 35);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(18, 18, 136);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgba(99, 188, 243, 0.77);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgba(99, 188, 243, 0.77);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 140px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+
+        .leftSection {
+            font-size: 3.5rem;
+            margin: 150px 0;
+        }
+
+        .leftSection .button{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn{
+            padding: 15px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 90%;
+            margin: 30px 0;
+        }
+
+        .purple {
+            color: rgba(137, 43, 226, 0.797);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgba(137, 43, 226, 0.797);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+            height: 10vh;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 70vw;
+            height: 3px;
+            margin: 40px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 180px;
+        }
+
+        .image-top {
+            width: 50px;
+            position: relative;
+            top: -60px;
+            left: -18px;
+        }
+
+        .vertical-text {
+            position: relative;
+            top: 50px;
+            width: 150px;
+            font-size: 18px;
+            
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 60px;
+            color: gray;
+            width: 150px;
+
+        }
+
+        .footer{
+            width: 100vw;
+            height: 5rem;
+            background-color: darkblue;
+
+        }
+
+        .footer p{
+            color: white;
+            font-size: 1.6rem;
+            text-align: center;
+            text-transform:capitalize ;
+            line-height: 5rem;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ravi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Ravi</span>
+                and I'm a Passionate
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn"> Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="png.program.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have Done So Far </span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html-5.png" alt="">
+                    <div class="vertical-text">
+                        HTML Developer (2019-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Learn about the key requirements, duties, responsibilities, and skills that should be in a
+                        developer job description.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="new node.js">
+                    <div class="vertical-text">
+                        Node.js Developer (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Learn about the key requirements, duties, responsibilities, and skills that should be in a
+                        developer job description.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.jpeg" >
+                    <div class="vertical-text">
+                        java Developer   (2021-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Learn about the key requirements, duties, responsibilities, and skills that should be in a
+                        developer job description.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python,png.jpeg" alt="">
+                    <dir class="vertical-text"> 
+                        Python Developer (2022-2023)
+                    </dir>
+                    <div class="vertical-desc">
+                        Learn about the key requirements, duties, responsibilities, and skills that should be in a
+                        developer job description.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+     
+   <footer class="footer">
+    <p> This Website Created by Ravi</p>
+   </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
